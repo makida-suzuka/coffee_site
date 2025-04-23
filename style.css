@@ -76,7 +76,7 @@ body{
 /* メニュー */
 #menu{
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 180px;
 }
 #menu .sec-title-bg{
     background-image: url(img/menu.jpg);
@@ -127,10 +127,14 @@ body{
 #about .sec-title-bg{
     background-image: url(img/about.jpg);
 }
+#about{
+    margin-bottom: 180px;
+}
 .about-text-wrap{
     text-align: center;
     margin: 0 auto;
     max-width: 1000px;
+    padding-top: 50px;
 }
 .about-text{
     display: flex;
@@ -143,7 +147,8 @@ body{
     text-align: start;
 }
 .read-more{
-    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
 }
 .read-more a{
     color: #000;
@@ -186,4 +191,46 @@ body{
     height: calc(100% - 2px);
     border-bottom: 2px solid #E03131;
     border-right: 2px solid #E03131;
+}
+
+
+/* locationセクション */
+#location .sec-title-bg{
+    background-image: url(img/location.jpg);
+}
+.location-small-sec-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.googlemap{
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100%;
+    text-align: center;
+}
+.googlemap iframe{
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 60%;
+}
+.address{
+    margin: 0 auto;
+    width: 90%;
+    text-align: start;
+}
+.address ul{
+    padding: 0;
+}
+.address ul li{
+    padding-bottom: 10px;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: small;
 }
