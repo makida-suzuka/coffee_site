@@ -285,6 +285,7 @@ footer p{
     .sec-title-bg{
         height: 94px;
         background-attachment: local;
+        background-size: cover;
     }
     .sec-title{
         color: #ffffff;
