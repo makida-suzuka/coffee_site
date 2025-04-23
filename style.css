@@ -31,6 +31,8 @@ body{
     align-items: center;
 }
 .hero-title{
+    text-align: center;
+    width: 100%;
     color: #ffffff;
 }
 .hero-title img{
@@ -236,4 +238,41 @@ footer{
 }
 footer p{
     font-size: small;
+}
+
+
+/* SP */
+@media screen and (max-width:485px){
+    .hero-title img{
+        width: 80%;
+    }
+    .all-menu{
+        display: block;
+    }
+    .right-menu, .left-menu{
+        width:100%;
+        padding: 0 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .right-menu{
+        border: 0;
+    }
+    #menu{
+        margin-bottom: 90px;
+    }
+    .small-sec-title{
+        margin-bottom: 40px;
+    }
+    .about-text p{
+        padding: 0 10px;
+        width: calc(100% - 20px);
+        text-align: start;
+        margin-top:0;
+        margin-bottom: 10px;
+    }
+    #about{
+        margin-bottom: 90px;
+    }
+
 }
