@@ -137,16 +137,19 @@ body{
     padding-top: 50px;
 }
 .about-text{
+    font-size: 0.95rem;
+    line-height: 2.0rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .about-text p{
     padding: 20px;
-    width: calc(calc(100% - 20px) / 2.5);
+    width: calc(calc(100% - 20px) / 2.2);
     text-align: start;
 }
 .read-more{
+    font-size: 0.9rem;
     margin-top: 20px;
     text-align: center;
 }
@@ -154,7 +157,7 @@ body{
     color: #000;
     position: relative;
     display: inline-block;
-    padding: 12px 24px;
+    padding: 16px 45px;
     transition: color 0.3s ease;
     border: none;
 }
@@ -180,8 +183,8 @@ body{
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 20px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     border-bottom: 2px solid #E03131;
     border-right: 2px solid #E03131;
     transition: all 0.4s ease;
