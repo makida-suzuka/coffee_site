@@ -64,6 +64,7 @@ body{
     height: 300px;
     position: relative;
     background-attachment: fixed;
+    background-size: cover; /*1920以上の画面サイズで画像が繰り返して表示されないように全面表示*/
     display: flex;
     justify-content: center;
     align-items: center;
